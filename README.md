@@ -31,4 +31,7 @@ export default {
 
 
 
-## The .env file is not present in the .gitignore file (as it should be) and is sent to Git so that it is easier for the user to install and run the project.
+## Notes
+
+- This project works with pnpm
+- The .env file is not present in the .gitignore file (as it should be) and is sent to Git so that it is easier for the user to install and run the project.
