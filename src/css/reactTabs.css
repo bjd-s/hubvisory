@@ -1,0 +1,16 @@
+.react-tabs__tab-list {
+    text-align: center;
+}
+
+.react-tabs__tab--selected {
+    background-color: var(--purple);
+    color: var(--white);
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+}
+
+.react-tabs__tab:focus::after {
+    display: none;
+}

@@ -1,0 +1,27 @@
+@import './css/normalize.css';
+@import './css/shows.css';
+@import './css/colors.css';
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+button {
+	appearance: none;
+	border: none;
+}
+
+#root {
+	padding: 30px;
+	background-color: var(--black_pearl);
+	color: var(--white);
+
+	font-family: "Open Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 300;
+	font-style: normal;
+	font-variation-settings:
+		"wdth" 100;
+}
