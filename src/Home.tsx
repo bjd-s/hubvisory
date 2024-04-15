@@ -21,7 +21,7 @@ const Home = () => {
 
     return (
         <div>
-            <h1>Tendances du moment</h1>
+            <h2>Tendances du moment</h2>
             {error instanceof Error && <p>Une erreur s'est produite : {error.message}</p>}
 
             <Tabs>

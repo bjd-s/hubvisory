@@ -13,8 +13,10 @@ export const useMedia = () => {
             }
         });
 
-        const movies = results.filter((item: any) => item.title);
-        const tvShows = results.filter((item: any) => item.name);
+        interface ResultItem extends Partial<Movie & TvShow> {}
+
+        const movies = results.filter((item: ResultItem) => item.title);
+        const tvShows = results.filter((item: ResultItem) => item.name);
 
         return { movies, tvShows };
     }
